@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <form class="row g-3" action="page2.html">
+            <div class="col-md-4">
+              <label for="inputNombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="inputNombre" required>
+            </div>
+            <div class="col-md-4">
+                <label for="inputApellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="inputApellido" required>
+            </div>
+            <div class="col-4">
+              <label class="form-label" for="inlineFormInputGroupUsername">Username</label>
+              <div class="input-group">
+                <div class="input-group-text">@</div>
+                <input type="text" class="form-control" id="inlineFormInputGroupUsername" required>
+              </div>
+            </div>
+            <div class="col-6">
+              <label for="inputCiudad" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputCiudad" placeholder="Ej: Santiago" required>
+            </div>
+            <div class="col-md-3">
+              <label for="inputAccionBancaria" class="form-label">State</label>
+              <select id="inputAccionBancaria" class="form-select">
+                <option value="deposito" selected>Deposito</option>
+                <option value="giro">Giro</option>
+                <option value="consSaldo">Consulta Saldo</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Desea Ver Informacion en Pantalla?
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Solicitar</button>
+              <button type="reset" class="btn btn-primary">Borrar</button>
+            </div>
+        </form>
+    </div>
+
+    
+    
+    
+    
+   <script src="./assets/js/bootstrap.bundle.js"></script> 
+</body>
+</html>
