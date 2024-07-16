@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Horas Medicas</title>
+</head>
+<body>
+    <center><h1>Agende su Cita Medica</h1></center>
+    <form action="m2s2_respuesta.html">
+        <label for="nombre">Nombre</label ><br>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre" required><br>
+        <br>
+
+        <label for="direccion">Direccion</label> <br>
+        <input type="text" name="direccion" id="direccion" placeholder="Ingrese su Direccion" required><br>
+        <br>
+
+        <label for="esp_medica">Especialidad Medica</label><br>
+        <select name="esp_medica" id="esp_medica" required>
+            <option value="med_general">Medicina General</option>
+            <option value="med_interna">Medicina Interna</option>
+            <option value="gastroenterologia">Gastroenterologia</option>
+            <option value="dermatologia">Dermatologia</option>
+            <option value="traumatologia">Traumatologia</option>
+            <option value="geriatria">Geriatria</option>
+            <option value="psiquiatria">Psiquiatria</option>
+            <option value="psiq_desarrollador">Psiquiatria Esp en Desarrolladores</option>
+        </select><br>
+        <br>
+        
+        <label for="fecha">Fecha</label><br>
+        <input type="date" name="fecha" id="fecha" required><br>
+        <br>
+
+        <label for="hora">Hora</label><br>
+        <input type="time" name="hora" id="hora" required><br>
+        <br>
+
+        <label for="correo">Correo Electronico</label><br>
+        <input type="email" name="correo" id="correo" placeholder="Ingrese su correo Electronico" required><br>
+        <br>
+        <button>enviar</button>
+        <button type="reset">Borrar</button>
+        
+
+    </form>
+</body>
+</html>
