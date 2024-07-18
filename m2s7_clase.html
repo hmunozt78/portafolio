@@ -7,8 +7,36 @@
     <title>Inicios JavaScript</title>
 </head>
 <body>
+    <script src="./assets/js/acciones.js"></script>
     <script>
-        console.log("Hola Mundo");
+        let respuesta;
+
+        do{
+            let numero1, numero2, operador, resultado;
+
+            numero1= prompt("ingresa el primer numero");
+            numero2= prompt("ingresa el segundo numero");
+            operador= prompt("ingresa 1 para suma, 2 para resta, 3 para multiplicar y 4 para dividir");
+
+            resultado = operatoria(numero1, numero2, operador);
+            alert("Tu resultado es "+ resultado);
+
+            respuesta = prompt("desea otra operacion? S/N");
+
+            respuesta = respuesta.toUpperCase();
+            alert(respuesta);
+
+        } while (respuesta == "S");
+
+        /*
+        do {
+            i += 1;
+            document.write(i);
+        } while (i < 5);*/
+
+        
+
+        //console.log("el resultado es "+resultado);
     </script>
 
     <script src="./assets/js/bootstrap.bundle.js"></script>
