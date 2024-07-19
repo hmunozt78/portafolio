@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M2S08 - REBOUND</title>
+</head>
+<body>
+    
+<script>
+    let opcion;
+    do{
+        opcion=prompt("MENU DE LA FORTUNA \nEscoge un color y ve tu suerte \n1.- Rojo \n2.- Amarillo \n3.- Verde  \n4.- Azul \n5.- Salir") ;
+        opcion = parseInt(opcion);
+
+        switch (opcion){
+            case 1:
+                alert("No podemos dirigir el viento pero sí ajustar las velas");
+                break;
+            case 2:
+                alert("Uno de tus sueños se hará realidad");
+                break;
+            case 3:
+                alert("Todo el mundo se siente atraído hacia ti");
+                break;
+            case 4: 
+                alert("El futuro te sonreirá si eres divertido, ¡así que sube al escenario y comienza el espectáculo!");
+                break;
+            case 5: 
+                alert("Hasta Luego... espero hayas disfrutado");
+                break;
+            default:
+                alert("esta opcion es invalida");
+        }
+    } while (opcion != 5);
+    
+
+
+</script>
+
+</body>
+</html>

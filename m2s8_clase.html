@@ -7,5 +7,62 @@
 </head>
 <body>
     
+    <script>
+        let paises = ["Chile","Argentina","peru"];
+        console.log(paises);
+
+        console.log("el largo del array es "+ paises.length);
+
+        
+        for (let i = 0; i < paises.length;i++){
+            console.log("En FOR paises[" + i +"] : "+ paises[i]);
+        }
+
+        paises.push("Bolivia");
+        
+        console.log("el largo del array es "+ paises.length);
+
+        
+        for (let i = 0; i < paises.length;i++){
+            console.log("En FOR paises[" + i +"] : "+ paises[i]);
+        }
+
+        paises.unshift("Paraguay");
+
+        console.log("el largo del array es "+ paises.length);
+
+        
+        for (let i = 0; i < paises.length;i++){
+            console.log("En FOR paises[" + i +"] : "+ paises[i]);
+        }
+
+        paises.pop();
+
+        console.log("el largo del array es "+ paises.length);
+
+        
+        for (let i = 0; i < paises.length;i++){
+            console.log("En FOR paises[" + i +"] : "+ paises[i]);
+        }
+
+        paises.shift();
+        console.log("el largo del array es "+ paises.length);
+
+        
+        for (let i = 0; i < paises.length;i++){
+            console.log("En FOR paises[" + i +"] : "+ paises[i]);
+        }
+
+        paises[2]="Peru;"
+
+        paises.shift();
+        console.log("el largo del array es "+ paises.length);
+
+        
+        for (let i = 0; i < paises.length;i++){
+            console.log("En FOR paises[" + i +"] : "+ paises[i]);
+        }
+    </script>
+
 </body>
 </html>
