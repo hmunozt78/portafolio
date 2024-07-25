@@ -1,0 +1,24 @@
+.caja1_container{
+    background-color: aqua;
+    text-align: center;
+    margin:10%;
+    margin-top: 3%;
+}
+
+#text2{
+    display: none;
+}
+
+#caja2{
+    text-align: center;
+}
+
+#caja3{
+    background-color: rgb(153, 235, 22);
+    text-align: center;
+    margin:10%;
+    margin-top: 3%;
+    /* font-size: xx-large; */
+    /* font-size: medium;  */
+    /* font-family: Georgia, 'Times New Roman', Times, serif */
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/m2s9_final.css">
+    <script src="./assets/js/m2s9_final.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container text-center mt-4">
+        <h3>LISTA DE TAREAS PENDIENTES</h3>
+    </div>
+    
+
+    <div class="container">
+        <button type="button" id="agregarbtn" class="btn btn-success">Agregar tarea</button>
+        <div id="formulario">
+        <form action="">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nueva tarea</label>
+                <input type="text" class="form-control" id="nuevaTarea" >
+              </div>
+              <div class="mb-3">
+                <button type="button" class="btn btn-primary">Agregar</button>
+              </div>
+        </form>
+    </div>
+    </div>
+
+
+    <div class="container mt-5">
+    <table class="table" id="tabla-tareas">
+        <thead>
+          <tr>        
+            <th scope="col">Tarea</th>
+            <th scope="col">Finalizar</th>
+          </tr>
+        </thead>
+        <tbody id="cuerpo-tabla">
+          <tr>           
+            <td></td>
+            <td></td>           
+          </tr>         
+        </tbody>
+      </table>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>
